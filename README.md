@@ -107,8 +107,7 @@ always uses its bundled copy. To get a local copy:
 Markdown is converted to HTML (python-markdown), Mermaid fences are protected during
 conversion and rendered by mermaid.js inside a headless Edge / Chrome (driven by
 Playwright), and the page is printed to PDF with optional header and footer. HTML
-inputs skip the conversion and are printed as-is. See [docs/md2pdf.md](docs/md2pdf.md)
-for the full flow and configuration.
+inputs skip the conversion and are printed as-is.
 
 ## Troubleshooting
 
@@ -128,6 +127,3 @@ for the full flow and configuration.
 - Header/footer text is simple (title, author, version, date, page numbers).
 - The GUI exe build script targets Windows.
 
-## License
-
-Add a `LICENSE` file of your choice before publishing.
