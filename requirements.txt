@@ -1,0 +1,10 @@
+# Core (CLI)
+markdown
+pygments
+playwright
+
+# GUI (drag & drop)
+tkinterdnd2
+
+# Only to build the exe
+pyinstaller
